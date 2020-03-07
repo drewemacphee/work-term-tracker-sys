@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+.searchBar {
+    height: 15px;
+    width: 200px;
+}
+
+.row-top form {
+ background: #104477;
+
+ padding-left:20px ;
+ padding-right:20px ;
+ padding-bottom:20px ;
+ display: flex; /* 2. display flex to the rescue */
+ flex-direction: row;
+ color: white;
+
+}
+
+.header-row{
+    background: #104477;
+    display: grid;
+    grid-template-columns: 180px auto;
+    padding-left:1% ;
+    padding-right:1% ;
+}
+
+.nscc-logo{
+    padding-top: 16px;    
+}
+
+.grid1 {
+padding: 0px;
+}
+
+.grid2{
+    color: white;
+}
+
+
+.blank-space-3{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.blank-space-1{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.blank-space-half{
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.idontknow{
+    margin-right: auto;
+    display: flex;
+}
+
+.row-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #999999;
+    display: flex;
+
+
+}
+
+.row-bottom-inner {
+ background: white;
+ padding: 10px;
+ border-radius: 15px;
+ height: 20px;
+margin-left: auto;
+}
+
+form {
+    display: inline-block; 
+}
+
+.addBtn {
+    border-width: 1.1px;
+    font-size: 16px;
+    width: 120%;
+    border-color: #333333;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.addBtn2{
+    padding-right: 80px ;
+
+}
+
+.updateBtn {
+    border-width: 1.1px;
+    font-size: 16px;
+    width: 120%;
+    border-color: #333333;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.submitBtn{
+    border-radius: 2px;
+    width: 70px;
+    border-color: black;
+    height: inherit;
+    
+
+}
+
+.icon{
+    width: 5%;
+    position: relative;
+  }
+
+  .masterBtn{
+    width:70px;
+    font-size: 13px;
+  }
+
+  .detBtn{
+    width:70px;
+    font-size: 13px;
+  }
+
+  .feedBtn{
+    width:70px;
+    font-size: 13px;
+  }
+
+  .cardContainer {
+      padding: 10px;
+      border-style: solid;
+      background-color: lightgrey;
+      border-radius: 7px;
+      border-width: thin;
+      /*width: 70%;*/
+      border-color: grey;
+
+  }
+
+  .outsideCC {
+      padding: 50px;
+  }
+
+.cardData{
+    column-count: 3;
+    column-width: 100px;
+    column-rule: 1px solid lightblue;
+    display: table; /* Make the container element behave like a table */
+    width: 100%;
+}
+
+.col{
+    display: table-cell;
+}
+
+.row-topper{
+    padding-top: 6px;
+    padding-bottom: 1px;
+    padding-left: 21px;
+    background: #104477;
+    color: white;
+}

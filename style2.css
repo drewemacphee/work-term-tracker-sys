@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+
+.logo-header .header-row {
+    background: #104477;
+    display: grid;
+    grid-template-columns: 180px auto;
+    padding-left:1% ;
+    padding-right:1% ;
+}
+.logo-header .grid1 {
+    padding: 0px;
+}
+.logo-header .grid2{
+    color: white;
+}
+
+.logo-header .nscc-logo{
+    padding-top: 16px;    
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header {
+    color: white;
+    margin-bottom: 2rem;
+    width: 100%;
+    background-color:#104477;
+    height: 60px;
+    z-index: -1;
+}
+
+.header > h2 {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto 90px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.message {
+position: relative;
+z-index: 1;
+max-width: 1000px;
+margin: 0px auto 90px;
+margin-bottom: 30px;
+text-align: left;
+}
+
+.grid-item > h2 {
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+.grid-item2 > h2 {
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    text-align: right;
+    margin-right: 16px;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+select {
+    margin-bottom: 0.5rem;
+    width: 172px;
+}
+
+textarea {
+    margin-bottom: 0.5rem;
+}
+
+.addnew-page {
+    width: 1000px;
+    margin: auto;
+  }
+
+.form {
+position: relative;
+z-index: 1;
+background: #FFFFFF;
+max-width: 1000px;
+margin: 0 auto 90px;
+padding: 30px;
+text-align: left;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: none;
+
+}
+
+.grid-item {
+background-color: none;
+border: 3px solid rgba(0, 0, 0, 0.8);
+padding: 1rem;
+margin: 1rem;
+text-align: left;
+border-radius: 15px;
+}
+
+.grid-item2 {
+background-color: none;
+border: 3px solid rgba(0, 0, 0, 0.8);
+padding: 1rem;
+margin: 1rem;
+text-align: left;
+grid-column-start: 1; 
+grid-column-end: 3; 
+border-radius: 15px;
+}
+
+.grid-item3 {
+    background-color: none;
+    border: none;
+    margin-left: 16px;
+    text-align: left;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    border-radius: 15px;
+}
+
+.subitem {
+margin-top: -95px;
+margin-left: 30%;
+padding-left: 32px;
+}
+
+.welcome {
+    padding-left: 16px;
+}
+
+.feedback {
+    position: relative;
+z-index: 1;
+max-width: 150px;
+/* margin: 0 auto 90px; */
+padding: 30px;
+text-align: left;
+margin-top: -197px;
+margin-left: 160px;
+}
+
+.submitBtn{
+    font-size: 15px;
+    width: 150px;
+    border-color: #333333;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
